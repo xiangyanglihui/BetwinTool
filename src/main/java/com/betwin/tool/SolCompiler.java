@@ -12,10 +12,11 @@ import org.apache.commons.io.IOUtils;
 import org.ethereum.solidity.compiler.CompilationResult;
 import org.ethereum.solidity.compiler.SolidityCompiler;
 
-public class Compiler {
+
+public class SolCompiler {
 
     public static void main(String[] args) throws IOException, InterruptedException {
-        Compiler compile = new Compiler();
+        SolCompiler compile = new SolCompiler();
         compile.start();
     }
 
